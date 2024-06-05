@@ -1,5 +1,5 @@
 module WhichisIORead(
-input Button1, Button2,
+input Button1, Button2,//这两个button直接用顶层的借入，不需要检测上升沿和消抖了
 input [15:0] SwitchData,
 input ButtonCtrl1,
 input ButtonCtrl2,
